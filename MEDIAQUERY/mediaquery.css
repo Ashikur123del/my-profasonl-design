@@ -1,0 +1,98 @@
+@media (max-width: 991.98px) {
+            .navbar-expand-lg .navbar-collapse {
+                justify-content: flex-end; 
+            }
+            .navbar-brand-custom {
+                margin-left: 15px; 
+            }
+              #menu-bar {
+                display: none;
+            }
+        }
+
+        
+@media (max-width: 767.98px) {
+    .col-md-3:not(:last-child) .feature-item {
+        border-right: none;
+        border-bottom: 1px solid #eee; 
+    }
+}
+
+
+        @media (max-width: 768px) {
+            .top-bar{
+                display: none !important;
+            }
+            .right-area {
+               display: none !important;
+            }
+            .product-area{
+                height: 100% !important;
+            }
+            .text-area-img {
+  
+                 top: 1px !important;
+    
+                }
+                .text-area-img-2 {
+                    top: 112px !important;
+                    right: 139px !important;
+                }
+               
+
+                .time-area-start {
+   
+               margin: 0 !important;
+            }
+
+                .simple-cart{
+                    padding: 0 !important;
+                }
+
+                .product-area {
+   
+                 padding-top: 9px !important;
+                 padding-bottom: 20px !important;
+                }
+
+                .margin-area{
+                    padding-top: 0 !important;
+                }
+
+                .Voucher-area{
+                    padding-top: 0 !important;
+                }
+                .featured-products-section{ padding: 0 !important;
+                }
+                .pading-area{
+                    padding-top: 0 !important;
+                    padding-bottom: 0 !important;
+                }
+
+
+                .salide-text {
+                     position: absolute;
+                     top: 100px !important;
+                     left: 100px !important;
+                    }
+                    .font-1 {
+                        font-size: 40px !important;
+                        line-height: 50px !important;
+                        margin-bottom: 10px !important;
+                    }
+          
+        }
+        @media (max-width: 500px) {
+         .salide-text {
+            
+            left: 27px !important;
+           }
+           .cart-text-area{
+            top: 20px !important;
+             padding: 0 5px !important;
+           }
+            .text-area-img-2 {
+                    top: 100px !important;
+                    right: 0px !important;
+                }
+        }

@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomarch Project</title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- font-awsome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+     <!-- my coustom css -->
+      <link rel="stylesheet" href="../MEDIAQUERY/mediaquery.css">
+    <link rel="stylesheet" href="../MAIN/main.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+
+    
+    <!-- subeheader start here -->
+
+<header class="header-area">
+    <div class="container-fulid">
+        <div class="row">
+    <div class="col-xl-6 col-md-6">
+    <div class="top-bar py-1 small">
+      <div class="left-content d-flex align-items-start justify-content-start  gap-3 text-white">
+        <span class="h6"><i class="fa-solid fa-phone"></i> Call us for free: +1(800) 123 4567</span>
+        <span>|</span>
+        <span class="h6">Free Shipping for orders over $150</span>
+        </div>
+         </div>
+        </div>
+         <div class="col-xl-6 col-md-6">
+        <div class="right-area d-flex justify-content-end align-items-start gap-4 text-white">
+        <span>Help & FAQs</span>
+        <span class="vr"></span>
+
+        <span><i class="fa-solid fa-box"></i> Track Order</span>
+        <span class="vr"></span>
+        <div class="dropdown">
+          <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" data-bs-toggle="dropdown">
+           English 
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">English</a></li>
+            <li><a class="dropdown-item" href="#">বাংলা</a></li>
+            <li><a class="dropdown-item" href="#">Español</a></li>
+          </ul>
+        </div>
+
+        <span class="vr"></span>
+        <div class="dropdown">
+          <a class="dropdown-toggle text-white text-decoration-none" href="#" role="button" data-bs-toggle="dropdown">
+            <img src="../IMGAS/us (1).png" width="30" alt="USA flag" /> USD
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"> <img src="../IMGAS/us (1).png" width="30" alt="USA flag" /></a></li>
+            <li><a class="dropdown-item" href="#"> <img src="../IMGAS/us.png" width="30" alt="USA flag" /></a></li>
+          </ul>
+        </div>
+      </div>
+        </div>
+        </div>
+        <hr class="d-none d-md-block hr-area">
+
+        <div class="row">
+            <div class="col-xl-2 col-md-6">
+                 <div class="logo text-white ">Ochaka<span>.</span></div>
+            </div>
+            <div class="col-xl-10 col-md-6">
+    <div class="top-bar">
+    <div class="search-bar">
+     <select class="category-select">
+        <option>All categories</option>
+        <option>Fashion</option>
+        <option>Electronics</option>
+        <option>Home & Kitchen</option>
+        <option>Sports</option>
+      </select> 
+      <input type="text" placeholder="Search for products...">
+      <button class="search-btn">
+        <i class="fa fa-search"></i> Search
+      </button>
+    </div>
+
+    <div class="icons">
+      <div class="account">
+        <div class="badge-area">
+            <div class="badg"> </div>
+                 <i class="fa fa-user text-white heart-ion"></i>
+                <span class="text text-white">Your account</span>
+        </div>
+      </div>
+      <div class="wishlist">
+       <div class="badge-area">
+        <i class="fa-regular fa-heart text-white heart-ion"></i>
+        <span class="badge badge1">24</span>
+       </div>
+      </div>
+      <div class="cart">
+        <div class="badge-area2">
+            <div class="badg2"> </div>
+            <i class="fa fa-shopping-cart text-white heart-ion"></i>
+            <span class="badge text-white badge-2">24</span>
+            <span class="text text-white">$0.00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+     </div>
+    </div>
+    </div>
+    </div>
+</header>
+
+    <!-- subeheader ends here --->
+               
+
+<!-- main menubar start here -->
+
+
+    <nav class="navbar position-sticky top-0  navbar-expand-lg navbar-custom">
+        <div class="container-fluid px-4">
+                <div class="col-xl-6 d-flex justify-content-center align-items-center">
+                 <ul class="navbar-nav text-start d-none d-md-block">
+                  <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 <i class="fas fa-bars me-2"></i> All Departments
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="shopDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="shopDropdown">
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PRODUCT
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productDropdown">
+                            <li><a class="dropdown-item" href="#">Single Product</a></li>
+                            <li><a class="dropdown-item" href="#">Product List</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="pageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGE
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="pageDropdown">
+                            <li><a class="dropdown-item" href="#">About Us</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link nav-link-custom dropdown-toggle" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="blogDropdown">
+                            <li><a class="dropdown-item" href="#">Blog List</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Post</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+                </div>
+           <div class="col-xl-6 d-flex  align-items-center justify-content-end text-end">
+             <div class="free-shipping-text ">
+                <i class="fa-solid fa-mug-saucer"></i> Free Shipping for orders over<span class="text-dange"> $150</span>
+            </div>
+           </div>
+        </div>
+    </nav>
+
+
+<!-- main menubar start here -->
+
+
+<div class="slider-area">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="../IMGAS/slider-25.jpg" alt="">
+        <div class="salide-text">
+            <p class="text-center d-flex justify-content-start align-items-center h3 pb-3"><img src="../IMGAS/fire.png"  alt="" style="width: 40px; height: 40px;"> Dont't miss the opportunity</p>
+            <h2 class="font-1">Wireless Bluetooth <br> Over-Ear Headphones</h2>
+            <span class="h1 clore1">$98.99 <sub>$120.99</sub></span>
+            <p class="pt-5"><button class="btn-2">Shop New <i class="fa-solid fa-arrow-right ms-3"></i></button></p>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="../IMGAS/slider-26.jpg" class=" w-100" alt="">
+        <div class="salide-text">
+            <p class="text-center d-flex justify-content-start align-items-center h3 pb-3"><img src="../IMGAS/fire.png"  alt="" style="width: 40px; height: 40px;"> Dont't miss the opportunity</p>
+            <h2 class="font-1">Wireless Bluetooth <br> Over-Ear Headphones</h2>
+            <span class="h1 clore1">$98.99 <sub>$120.99</sub></span>
+            <p class="pt-5"><button class="btn-2">Shop New <i class="fa-solid fa-arrow-right ms-3"></i></button></p>
+        </div>
+    </div>
+      <div class="swiper-slide">
+        <img src="../IMGAS/slider-27.jpg" alt="" class="w-100">
+        <div class="salide-text">
+            <p class="text-center d-flex justify-content-start align-items-center h3 pb-3"><img src="../IMGAS/fire.png"  alt="" style="width: 40px; height: 40px;"> Dont't miss the opportunity</p>
+            <h2 class="font-1">Wireless Bluetooth <br> Over-Ear Headphones</h2>
+            <span class="h1 clore1">$98.99 <sub>$120.99</sub></span>
+            <p class="pt-5"><button class="btn-2">Shop New <i class="fa-solid fa-arrow-right ms-3"></i></button></p>
+        </div>
+    </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<!-- slider section end -->
+
+<!-- Product Category start here -->
+
+
+<section class="Product-Category">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-2 col-md-6 mb-2">
+                <div class="img-3">
+                    <img src="../IMGAS/cate-29.jpg" alt="" class="logo-1">
+                </div>
+                <p class="pt-4 fs-4 ">Furniture <span class="color-1">(24)</span></p>  
+            </div>
+            <div class="col-lg-2 col-md-6 mb-2">
+                 <div class="img-3">
+                    <img src="../IMGAS/cate-30.jpg" alt="" class="logo-1">
+                </div>
+                 <p class="pt-4 fs-4">Accessories <span class="color-1">(30)</span></p>  
+            </div>
+            <div class="col-lg-2 col-md-6  mb-2">
+                 <div class="img-3">
+                    <img src="../IMGAS/cate-31.jpg" alt="" class="logo-1">
+                </div>
+                 <p class="pt-4 fs-4">Fashion <span class="color-1">(18)</span></p>  
+            </div>
+            <div class="col-lg-2 col-md-6 mb-2">
+                    <div class="img-3">
+                    <img src="../IMGAS/cate-32.jpg" alt="" class="logo-1">
+                </div>
+                 <p class="pt-4 fs-4">New Home <span class="color-1">(47)</span></p>  
+            </div>
+            <div class="col-lg-2 col-md-6  mb-2">
+                    <div class="img-3">
+                    <img src="../IMGAS/cate-33.jpg" alt="" class="logo-1">
+                </div>
+                 <p class="pt-4 fs-4">Kitchen <span class="color-1">(90)</span></p>  
+            </div>
+            <div class="col-lg-2 col-md-6 mb-2">
+                    <div class="img-3">
+                    <img src="../IMGAS/cate-34.jpg" alt="" class="logo-1">
+                </div>
+                 <p class="pt-4 fs-4">Essentials <span class="color-1">(86)</span></p>  
+            </div>
+        </div>
+    </div>
+</section>
+
+ <!-- Product Category start here -->
+
+ <!-- cart area strat here -->
+
+ <section class="simple-cart">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-3">
+                <div class="card cardMy pb-3" style="width: 100%;">
+                    <img src="../IMGAS/box-image-10.jpg" alt="" class="w-100">
+                    <div class="cart-text-area">
+                        <span class="fs-5 cart-1">SALE upto 50%</span>
+                        <h5 class="card-head">Apple Watch ES 2022</h5>
+                        <a href="#" class="card-a">SHOP NOW</a>
+                    </div>
+            </div>
+        </div>
+            <div class="col-lg-4 col-md-6  mb-3">
+                <div class="card cardMy pb-3" style="width: 100%;">
+                    <img src="../IMGAS/box-image-11.jpg" alt="" class="w-100">
+                    <div class="cart-text-area">
+                        <span class="fs-5 cart-1">SALE upto 50%</span>
+                        <h5 class="card-head">Apple Watch ES 2022</h5>
+                        <a href="#" class="card-a">SHOP NOW</a>
+                    </div>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6  mb-3">
+                <div class="card cardMy pb-3" style="width: 100%;">
+                    <img src="../IMGAS/box-image-12.jpg" alt="" class="w-100">
+                    <div class="cart-text-area">
+                        <span class="fs-5 cart-1">SALE upto 50%</span>
+                        <h5 class="card-head">Apple Watch ES 2022</h5>
+                        <a href="#" class="card-a">SHOP NOW</a>
+                    </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+ <!-- cart area ends here -->
+<div class="container">
+<div class="time-area-start">  
+    <div class="timer-container">
+    <span class="fire-emoji">🔥</span>
+    <span class="timer-label-text">Hurry up offer ends in:</span>
+    <div class="timer-box">
+      <span id="days">00</span>
+      <span class="timer-label">Days</span>
+    </div>
+    <div class="timer-box">
+      <span id="hours">00</span>
+      <span class="timer-label">Hours</span>
+    </div>
+    <div class="timer-box">
+      <span id="minutes">00</span>
+      <span class="timer-label">Mins</span>
+    </div>
+    <div class="timer-box">
+      <span id="seconds">00</span>
+      <span class="timer-label">Secs</span>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- dealy of the day start -->
+
+<div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 text-center">
+                <h2 class="deal-header">Deal of the day</h2>
+            </div>
+            <div class="col-lg-8  mb-3 pt-2 col-md-6 d-flex align-items-center justify-content-center">
+                <div class="d-flex flex-wrap justify-content-center">
+                    <button type="button" class="btn filter-button">All Product</button>
+                    <button type="button" class="btn filter-button">Headphone</button>
+                    <button type="button" class="btn filter-button">Laptop</button>
+                    <button type="button" class="btn filter-button active">Loudspeaker</button>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-2 text-center">
+                <a href="#" class="view-all-product">
+                    View All Product
+                <i class="fa-solid fa-circle-chevron-right arrow-right"></i>
+            </a>
+            </div>
+        </div>
+        <hr class="mt-4 d-none d-md-block">
+        <div class="margin-area pt-5">
+            <div class="row">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-1.jpg" alt="Original Image" class="img-fluid original-image">
+                    <img src="../IMGAS/product-2.jpg" alt="Hover Image" class="img-fluid hover-image">
+                    <div class="text-area">
+                        <span class="text-1">-29 %</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-5">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-3.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-4.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area">
+                        <span class="text-1">-29 %</span>
+                        <span class="text-2">Hot</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-5">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-5.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-6.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area text-area1">
+                         <span class="text-1">-25 %</span>
+                        <span class="text-2">Limited</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-7.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-8.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area text-area2">
+                        <span class="text-1">-35 %</span>
+                        <span class="text-2">FLSH SALE</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+   <!-- dealy of ends -->
+   
+
+<!-- Product On-sale start here -->
+
+
+<section class="product-area">
+        <div class="container">
+                  <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-2 col-md-6  mb-3">
+                <h2 class="deal-header ">Product On-sale</h2>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-2  mb-3">
+                <a href="#" class="view-all-product ms-4">
+                    View All Product
+                <i class="fa-solid fa-circle-chevron-right arrow-right"></i>
+            </a>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6  mb-3">
+               <div class="cart-area-main">
+                 <div class="image-hover-container">
+                    <img src="../IMGAS/product-9.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-10 (1).jpg" alt="Product View 2" class="img-fluid hover-image">
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>  
+                    <div class="progress my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 25%">25%
+                    </div>
+                </div> 
+                <div class="rating d-flex  justify-content-between">
+                          <span>Available: <span class="fw-bold"> 57</span></span>
+                         <span>Sold: <span class="fw-bold"> 72</span></span>
+                    </div>  
+                </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6  mb-3">
+               <div class="cart-area-main">
+                 <div class="image-hover-container">
+                    <img src="../IMGAS/product-11.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-12.jpg" alt="Product View 2" class="img-fluid hover-image">
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>  
+                    <div class="progress my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 50%">50%
+                    </div>
+                </div> 
+                </div>
+                <div class="rating d-flex  justify-content-between">
+                          <span>Available: <span class="fw-bold"> 57</span></span>
+                         <span>Sold: <span class="fw-bold"> 70</span></span>
+                    </div> 
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6  mb-3">
+                <div class="cart-area-main">
+                    <div class="image-hover-container">
+                    <img src="../IMGAS/product-13.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-14.jpg" alt="Product View 2" class="img-fluid hover-image">
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p> 
+
+                    <div class="progress my-4" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 75%">75%
+
+                    </div>
+                </div>  
+                </div>
+                <div class="rating d-flex  justify-content-between">
+                          <span>Available: <span class="fw-bold"> 60</span></span>
+                         <span>Sold: <span class="fw-bold"> 80</span></span>
+                    </div> 
+                </div>
+            </div>
+                </div>
+            </div>
+   
+</section>
+
+<!-- Product On-sale start here -->
+
+<!-- Product Best Sellers start here -->
+
+<div class="container mt-5">
+        <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-3 col-md-6  mb-3">
+                <h2 class="deal-header ">Product Best Sellers</h2>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-2  mb-3">
+                <a href="#" class="view-all-product ">
+                    View All Product
+                <i class="fa-solid fa-circle-chevron-right arrow-right"></i>
+            </a>
+            </div>
+        </div>
+        <hr class="mt-4 d-none d-md-block">
+        <div class="row py-5">
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-15.jpg" alt="Original Image" class="img-fluid original-image">
+                    <img src="../IMGAS/product-16.jpg" alt="Hover Image" class="img-fluid hover-image">
+                    <div class="text-area">
+                        <span class="text-1">-29 %</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-17.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-18.jpg" alt="Product View 2" class="img-fluid hover-image">
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-19.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-20.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area text-area1">
+                         <span class="text-1">-25 %</span>
+                        
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-21.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-22.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area text-area2">
+                        <span class="text-1">-35 %</span>
+                        <span class="text-2 text-3">New arrival</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- Product Best Sellers ends here -->
+
+
+<!-- Voucher Today start here -->
+
+<section class="Voucher-area">
+
+    <div class="container">
+        <div class="row">
+           <div class="col-lg-12">
+             <div class="img-logo-area">
+                <img src="../IMGAS/bannerV02.jpg" alt="">
+                <div class="text-area-img">
+                    <h4>Voucher Today</h5>
+                    <p>Get a voucher for any order over <span>$150</span></p>
+                </div>
+                <div class="text-area-img-2">
+                     <button class="btn-3">Get a voucher<i class="fa-solid fa-arrow-right"></i></button>
+                    <button class="btn-4">Discover more <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+
+</section>  
+
+<!-- Voucher Today ends here -->
+
+<!-- Featured Products satrt here -->
+
+    <section class="featured-products-section">
+
+        <div class="container">
+             <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-3 col-md-6  mb-3">
+                <h2 class="deal-header">Featured Products</h2>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-2  mb-3">
+                <a href="#" class="view-all-product">
+                    View All Product
+                <i class="fa-solid fa-circle-chevron-right arrow-right"></i>
+            </a>
+            </div>
+        </div>
+        <hr class="d-none d-md-block">
+            <div class="pading-area pt-5">
+                <div class="row">
+                <div class="col-lg-4 col-md-6  mb-3">
+                    <div class="product-card">
+                        <img src="../IMGAS/product-23.jpg" alt="">
+                        <div class="card-body ms-4 pt-4">
+                            <div class="category">Smartwatch</div>
+                            <h5 class="product-title">Smartwatch for Men Women, Alexa Built-in, 1.8" Fitness Tracker</h5>
+                            <div class="price">
+                               <span class="main-old"> $299.00 <span class="old-price">$349.00</span></span>
+                                 <div class="price-area ">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-solid fa-code-compare"></i></span>
+                                <span><i class="fa-solid fa-eye"></i></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4  mb-3">
+                    <div class="product-card">
+                          <img src="../IMGAS/product-24.jpg" alt="">
+                        <div class="card-body ms-4 pt-4">
+                            <div class="category">Wireless</div>
+                            <h5 class="product-title">Kids Headphones - noot K11 foldable, anti-tangle product</h5>
+                            <div class="price">
+                               <span class="main-old"> $299.00 <span class="old-price">$349.00</span></span>
+                                 <div class="price-area ">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-solid fa-code-compare"></i></span>
+                                <span><i class="fa-solid fa-eye"></i></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                          <img src="../IMGAS/product-25.jpg" alt="">
+                        <div class="card-body ms-4 pt-4">
+                            <div class="category">Wireless</div>
+                            <h5 class="product-title">JBL Tune 520BT - Wireless On-Ear Headphones, Up to 57H Battery</h5>
+                            <div class="price">
+                               <span class="main-old"> $299.00 <span class="old-price">$349.00</span></span>
+                                 <div class="price-area ">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-solid fa-code-compare"></i></span>
+                                <span><i class="fa-solid fa-eye"></i></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                          <img src="../IMGAS/product-26.jpg" alt="">
+                        <div class="card-body ms-4 pt-4">
+                            <div class="category">Essential Utensils</div>
+                            <h5 class="product-title">Upgraded 15L large capacity folding washing machine</h5>
+                            <div class="price">
+                              <span class="main-old"> $299.00 <span class="old-price">$349.00</span></span>
+                                 <div class="price-area ">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-solid fa-code-compare"></i></span>
+                                <span><i class="fa-solid fa-eye"></i></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="product-card">
+                      <img src="../IMGAS/product-27.jpg" alt="">
+                        <div class="card-body ms-4 pt-4">
+                            <div class="category">Fan</div>
+                            <h5 class="product-title">Double tub capacity 26lbs wash, 18lbs 8lbs w/ spinner</h5>
+                            <div class="price">
+                             <span class="main-old"> $299.00 <span class="old-price">$349.00</span></span>
+                                 <div class="price-area ">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-solid fa-code-compare"></i></span>
+                                <span><i class="fa-solid fa-eye"></i></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                       <img src="../IMGAS/product-28.jpg" alt="">
+                        <div class="card-body ms-4 pt-4">
+                            <div class="category">Smartwatch</div>
+                            <h5 class="product-title">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h5>
+                            <div class="price">
+                                <span class="main-old"> $299.00 <span class="old-price">$349.00</span></span>
+                                 <div class="price-area ">
+                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                <span><i class="fa-regular fa-heart"></i></span>
+                                <span><i class="fa-solid fa-code-compare"></i></span>
+                                <span><i class="fa-solid fa-eye"></i></span>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Featured Products ends here -->
+
+
+
+
+<!-- Voucher & Promotional start here -->
+
+<div class="container mt-5">
+       
+           <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-3 col-md-6  mb-3">
+                <h2 class="deal-header">Voucher & Promotional</h2>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-2  mb-3">
+                <a href="#" class="view-all-product">
+                    View All Product
+                <i class="fa-solid fa-circle-chevron-right arrow-right"></i>
+            </a>
+            </div>
+            </div>
+        <hr class="mt-4 d-none d-md-block">
+        <div class="pading-area py-5">
+            <div class="row ">
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-29.jpg" alt="Original Image" class="img-fluid original-image">
+                    <img src="../IMGAS/product-30.jpg" alt="Hover Image" class="img-fluid hover-image">
+                    <div class="text-area">
+                        <span class="text-1">-29 %</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-31.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-32.jpg" alt="Product View 2" class="img-fluid hover-image">
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6  mb-3">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-33.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-34.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area text-area1">
+                         <span class="text-1">-25 %</span>
+                        
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="image-hover-container">
+                    <img src="../IMGAS/product-35.jpg" alt="Product View 1" class="img-fluid original-image">
+                    <img src="../IMGAS/product-36.jpg" alt="Product View 2" class="img-fluid hover-image">
+                     <div class="text-area text-area2">
+                        <span class="text-1">-35 %</span>
+                        <span class="text-2 text-3">New arrival</span>
+                    </div>
+                    <div class="icon-area">
+                        <span><i class="fa-solid fa-cart-shopping"></i></span>
+                        <span><i class="fa-regular fa-heart"></i></span>
+                        <span><i class="fa-solid fa-code-compare"></i></span>
+                        <span><i class="fa-solid fa-eye"></i></span>
+                    </div>
+                </div>
+                <div class="main-icon-area">
+                    <span class="smart">Smart phone</span>
+                    <h6 class="fw-bold pt-2">Samsung Galaxy S10+, 128GB, Ceramic Black - Unlocked</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <p class="h4 fw-bold">$599.00 <sub>$699.00</sub></p>   
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </div>
+
+<!-- Voucher & Promotional ends here -->
+
+
+<!-- Our Blog start here -->
+
+<div class="container py-4">
+    <div class="row d-flex justify-content-between align-items-center">
+            <div class="col-lg-3 col-md-6  mb-3">
+                <h2 class="deal-header">Blog</h2>
+            </div>
+            <div class="col-lg-2 col-md-6 pt-2  mb-3">
+                <a href="#" class="view-all-product">
+                    View All Product
+                <i class="fa-solid fa-circle-chevron-right arrow-right"></i>
+            </a>
+            </div>
+            </div>
+             <hr class="mt-4 d-none d-md-block">
+    <div class="pading-area">
+        <div class="row pt-5">
+        <div class="col-lg-4 col-md-6 pb-3">
+          <div class="prent">
+              <div class="img-ovarliy">
+                <img src="../IMGAS/blog-14.jpg" alt="" class="img-fluid">
+                 <div class="blog-hide">
+                        <span>March 2, 2025</span>
+                    </div>
+            </div>
+            <div class="img-ovarliy-text">
+                <h4 class="blog-head">The Latest Sound Technology Is Applied</h6>
+                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit in malesuada magna faucibus. Pellentesque eget finibus nunc.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 pb-3">
+             <div class="prent">
+                <div class="img-ovarliy">
+                <img src="../IMGAS/blog-15.jpg" alt="" class="img-fluid">
+                 <div class="blog-hide">
+                        <span>March 2, 2025</span>
+                    </div>
+            </div>
+            <div class="img-ovarliy-text">
+                <h4 class="blog-head">The Latest Sound Technology Is Applied</h6>
+                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit in malesuada magna faucibus. Pellentesque eget finibus nunc.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+             </div>
+            
+
+        </div>
+        <div class="col-lg-4 col-md-6 pb-3">
+            <div class="prent">
+                 <div class="img-ovarliy">
+                <img src="../IMGAS/blog-16.jpg" alt="" class="img-fluid">
+                 <div class="blog-hide">
+                    <span>March 2, 2025</span>
+                </div>
+            </div>
+            <div class="img-ovarliy-text">
+                <h4 class="blog-head">The Latest Sound Technology Is Applied</h6>
+                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit in malesuada magna faucibus. Pellentesque eget finibus nunc.</p>
+                <a href="#" class="read-btn">Read More</a>
+            </div>
+            
+            </div>
+
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- Our Blog ends here -->
+
+<section class="features-section py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <h5 class="feature-title">30 days return</h5>
+                        <p class="feature-description">30 day money back guarantee</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h5 class="feature-title">3 year warranty</h5>
+                        <p class="feature-description">Manufacturer's defect</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shipping-fast"></i>
+                        </div>
+                        <h5 class="feature-title">Free shipping</h5>
+                        <p class="feature-description">Free Shipping for orders over $150</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h5 class="feature-title">Online support</h5>
+                        <p class="feature-description">24 hours a day, 7 days a week</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer area start -->
+
+    <footer class="bg-white py-5 border-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h5 class="fw-bold mb-3">Contact us</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2 pe-3 text-10">
+                      <i class="fa-solid fa-location-dot text-secondary "></i>
+                        8500 Lorem Street Chicago, IL 55030<br>Dolor sit amet
+                    </li>
+                    <li class="mb-2 text-10">
+                        <i class="fa-solid fa-phone text-secondary pe-3"></i>
+                        +(800) 123 4567
+                    </li>
+                    <li class="mb-2 text-10">
+                       <i class="fa-solid fa-envelope text-secondary pe-3"></i>
+                        themesflat@support.com
+                    </li>
+                </ul>
+                <div class="d-flex mt-3">
+                    <a href="#" class="btn btn-area"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="btn btn-area"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="btn btn-area"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="btn btn-area"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <h5 class="fw-bold mb-3">Shopping</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Shipping</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Shop by Brand</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Track order</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Terms & Conditions</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Site Guide</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">My Wishlist</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 mb-4">
+                <h5 class="fw-bold mb-3">Information</h5>
+                <ul class="list-unstyled list-nonn">
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">About Us</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Term & Policy</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Help Center</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">News & Blog</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Refunds</a></li>
+                    <li class="mb-2"><a href="#" class="text-decoration-none text-dark text-10">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 mb-4">
+                <h5 class="fw-bold mb-3">Let's keep in touch</h5>
+                <p class="text-muted">Enter your email below to be the first to know about new collections and product launches.</p>
+                <div class=" d-flex gap-3 mb-4 input-area">
+                    <input type="email" class="form-control" placeholder="Enter your email" aria-label="Enter your email">
+                    <button class="btn">Subscirbe</button>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="subscribeCheck">
+                    <label class="form-check-label text-muted" for="subscribeCheck">
+                        By clicking subscribe, you agree to the <br> Terms of Service and Privacy Policy</a>.
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-4 d-none d-md-block">
+
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <div class="mb-2 mb-md-0">
+                <a href="#" class="text-decoration-none text-dark me-3">Help & FAQs</a>
+                <a href="#" class="text-decoration-none text-dark">Factory</a>
+            </div>
+            <div class="d-flex align-items-center mb-2 mb-md-0">
+                <span class="me-2 text-muted">Payment:</span>
+                <img src="../IMGAS/visa.png" alt="Visa" class="me-1" style="height: 30px; width: 50px;">
+                <img src="../IMGAS/master-card.png" alt="" class="me-1" style="height: 30px;  width: 50px;">
+                <img src="../IMGAS/amex.png" alt="" class="me-1" style="height: 30px;  width: 50px;">
+                <img src="../IMGAS/discover.png" alt="" class="me-1" style="height: 30px;  width: 50px;">
+                <img src="../IMGAS/paypal.png" alt="" class="me-1" style="height: 30px;  width: 50px;">
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="dropdown me-3">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuCurrency" data-bs-toggle="dropdown" aria-expanded="false">
+                       <img src="../IMGAS/us.png" alt="" style="height: 40px;  width: 40px;">
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuCurrency">
+                        <li><a class="dropdown-item" href="#"><img src="../IMGAS/vie.png" alt="" style="height: 40px;  width: 40px;"></a></li>
+                        <li><a class="dropdown-item" href="#"><img src="../IMGAS/us.png" alt="" style="height: 40px;  width: 40px;"></a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle" type="button" id="dropdownMenuLanguage" data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLanguage">
+                        <li><a class="dropdown-item" href="#">Español</a></li>
+                        <li><a class="dropdown-item" href="#">Français</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<!-- bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="../JAVASCRIPT/script.js"></script>
+</body>
+</html>
